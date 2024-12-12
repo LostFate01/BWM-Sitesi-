@@ -8,7 +8,9 @@
   * Lütfen dosyaların boyutunu yuklemeden önce bir program ile küçültün (Örnek: Bir video 150MB ise lütfen 25MB altında yapmaya çalışın "fotoğraf"lar da dahil)
 
 <h2>Github desktop kullanımını bilmiyorsanız aşağıdaki videoları izleyebilirsiniz</h2>
- <video src="https://www.youtube.com/watch?v=8Dd7KRpKeaE&t=37s">
+
+[<img src="https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=8Dd7KRpKeaE&t=37s)
+
 
   <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css />
 </p>
