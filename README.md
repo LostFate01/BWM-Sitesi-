@@ -49,6 +49,8 @@ Tüm yapılacak işlere <a href="https://trello.com/invite/b/675ae713ccd417932ad
    - “Commit to Main” butonuna tıklayın.  
    - Son olarak, “Push Origin” butonuna tıklayarak değişikliklerinizi depoya yükleyin.
 
+---
+
 ## Trello Kullanımı – Adım Adım Rehber
 
 1. **Trello’ya Kaydolun veya Giriş Yapın**  
@@ -71,7 +73,4 @@ Tüm yapılacak işlere <a href="https://trello.com/invite/b/675ae713ccd417932ad
 
 6. **Kartlara Detay Ekleyin**  
    - Kart üzerine tıklayarak açıklamalar, kontrol listesi veya dosyalar ekleyebilirsiniz.
-
----
-
 </div>
