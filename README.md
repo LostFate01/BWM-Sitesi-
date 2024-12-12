@@ -47,4 +47,31 @@ Tüm yapılacak işlere <a href="https://trello.com/invite/b/675ae713ccd417932ad
    - “Commit to Main” butonuna tıklayın.  
    - Son olarak, “Push Origin” butonuna tıklayarak değişikliklerinizi depoya yükleyin.
 
+---
+
+## Trello Kullanımı – Adım Adım Rehber
+
+1. **Trello’ya Kaydolun veya Giriş Yapın**  
+   - [Trello](https://trello.com/) adresine gidin ve hesabınıza giriş yapın veya yeni bir hesap oluşturun.
+
+2. **Proje Panosuna Katılın**  
+   - Size gönderilen pano bağlantısını açın ve katılma isteğinizi onaylayın.
+
+3. **Kartları İnceleyin**  
+   - Panodaki her sütun bir aşamayı temsil eder (Örneğin: Yapılacaklar, Yapılıyor, Tamamlandı).  
+   - Sütunlarda bulunan her kart, bir görevi temsil eder.
+
+4. **Kendinize Görev Atayın**  
+   - Bir kartın üzerine tıklayın.  
+   - “Üyeler” kısmına tıklayarak kendinizi karta ekleyin.
+
+5. **Görev Durumunu Güncelleyin**  
+   - Göreviniz üzerinde çalışmaya başladığınızda, kartı “Yapılıyor” sütununa taşıyın.  
+   - Görevi tamamladığınızda, kartı “Tamamlandı” sütununa taşıyın.
+
+6. **Kartlara Detay Ekleyin**  
+   - Kart üzerine tıklayarak açıklamalar, kontrol listesi veya dosyalar ekleyebilirsiniz.
+
+---
+
 </div>
