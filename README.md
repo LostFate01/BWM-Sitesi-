@@ -12,8 +12,8 @@
 <br>
 <a href="https://www.youtube.com/watch?v=GGb6Hq4S0-o">Türkçe</a>
 
-
-  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css />
+<h3>Yapılacaklara bu linkten ulaşabilirsiniz</h3>
+<a href="https://trello.com/invite/b/675ae713ccd417932ad0944e/ATTI39ef9ee384d091aa7dc9c0500289fb82CCC27A35/bmw-si̇tesi̇-html-fi̇nal">Yapılacaklar</a>
 </p>
 
           
