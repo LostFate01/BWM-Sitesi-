@@ -23,6 +23,8 @@ GitHub Desktop kullanmayı bilmiyorsanız, aşağıdaki videoları izleyebilirsi
 Tüm yapılacak işlere <a href="https://trello.com/invite/b/675ae713ccd417932ad0944e/ATTI39ef9ee384d091aa7dc9c0500289fb82CCC27A35/bmw-si̇tesi̇-html-fi̇nal">bu bağlantıdan</a> ulaşabilirsiniz.
 </p>
 
+---
+
 ## GitHub Desktop Kullanımı – Adım Adım Rehber
 
 1. **GitHub Desktop’u İndirin ve Kurun**  
@@ -46,8 +48,6 @@ Tüm yapılacak işlere <a href="https://trello.com/invite/b/675ae713ccd417932ad
    - Her değişiklik için bir açıklama yazın (örneğin: “Yeni dosya eklendi”).  
    - “Commit to Main” butonuna tıklayın.  
    - Son olarak, “Push Origin” butonuna tıklayarak değişikliklerinizi depoya yükleyin.
-
----
 
 ## Trello Kullanımı – Adım Adım Rehber
 
