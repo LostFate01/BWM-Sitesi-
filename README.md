@@ -1,4 +1,4 @@
-# BAŞLAMADAN ÖNCE BUNLARI YAPIN
+# BAŞLAMADAN ÖNCE OKUYUN
 <p style="text-align: justify;">
   * Lütfen GITHUB DESKTOP u bilgisiyarınıza indiriniz <a href="https://desktop.github.com/download/">Bu linkten uygulamaya ulaşabilirsiniz</a>
  <br>
