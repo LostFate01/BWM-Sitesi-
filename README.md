@@ -10,10 +10,5 @@
 <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css />
           
 <h1>Github desktop kullanımını bilmiyorsanız aşağıdaki videoları izleyebilirsiniz</h1>
-
-</div>
-
-
-<div>
  <video src="https://www.youtube.com/watch?v=8Dd7KRpKeaE&t=37s">
 </div>
