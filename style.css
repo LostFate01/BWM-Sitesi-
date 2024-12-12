@@ -19,7 +19,7 @@ body{
 }
 
 .background-video{
-    object-fit:fill;
+    object-fit:cover;
     overflow: auto;
     width: 100%;
     height: 100%;
