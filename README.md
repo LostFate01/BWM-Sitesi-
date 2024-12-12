@@ -21,7 +21,7 @@ GitHub Desktop kullanmayı bilmiyorsanız, aşağıdaki videoları izleyebilirsi
 * <a href="https://www.youtube.com/watch?v=8Dd7KRpKeaE&t=37s">İngilizce</a> (Altyazılı izleyebilirsiniz)
 * <a href="https://www.youtube.com/watch?v=GGb6Hq4S0-o">Türkçe</a> (Video bağlantısı buraya)
 
-<h3>Yapılacaklar Listesi</h3><br>
+<h3>Yapılacaklar Listesi (TRELLO)</h3><br>
 Tüm yapılacak işlere <a href="https://trello.com/invite/b/675ae713ccd417932ad0944e/ATTI39ef9ee384d091aa7dc9c0500289fb82CCC27A35/bmw-si̇tesi̇-html-fi̇nal">bu bağlantıdan</a> ulaşabilirsiniz.
 </p>
 
