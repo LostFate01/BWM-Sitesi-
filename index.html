@@ -1,67 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMW Türkiye Resmi Web Sitesi</title>
+    <link rel="icon" href="images/BMW Logo.png" type="image/x - icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BMW Türkiye Resmi Web Sitesi</title>
-  <link rel="icon" href="images/BMW Logo.png" type="image/x - icon">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-</head>
+  <body>
+    <!-- Video Background -->
+    <div class="video-container">
+      <video autoplay muted loop class="background-video">
+        <source src="video/BMWvideo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
 
-<body>
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img style="width: 80px;" src="images/website-navbaar-logo.png" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Katalog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Bize Ulaşın</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Hakkında</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">SSS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Galerilerimiz</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Yardım</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Link</a></li>
-              <li><a class="dropdown-item" href="#">Another link</a></li>
-              <li><a class="dropdown-item" href="#">A third link</a></li>
-            </ul>
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img width="100" src="images/website-navbaar-logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#"><b>Modeller</b></a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><b>Hizmetler</b></a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><b>BMW’nizi Online Rezerve Edin</b></a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><b>İletişim</b></a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><b>Hakkında</b></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Content Over Video -->
+    <div class="ontop-video-content">
+      <h1><b>BMW RUHU: HER RUHA BİR RUH EŞİ</b></h1>
+      <p><b><i>BMW modellerine özel yıl sonu fırsatları.</i></b></p>
+      <a href="#" class="btn btn-primary btn-lg">İnceleyin</a>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <h1 style="text-align: center;">BMW'nizi Rezerve Edin.</h1>
+        <div class="cont-rezerve-container">
+          <div class="cont-rezerve">
+            Online rezerve edin
+          </div>
+          <div class="cont-rezerve">
+            Online rezerve edin
+          </div>
+          <div class="cont-rezerve">
+            Online rezerve edin
+          </div>
+          <div class="cont-rezerve">
+            Online rezerve edin
+          </div>
+        </div>
+        
       </div>
     </div>
-  </nav>
-  
-  <div class="video-container">
-    <video autoplay loop muted class="background-video">
-      <source src="video/BMWvideo.mp4">
-    </video>
-  </div>
-
-  
-
-  <div class="container mt-5">
-    <div class="row">
-      Deneme
-    </div>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>

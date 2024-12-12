@@ -1,35 +1,126 @@
-body{
+body {
     background-color: rgb(28, 28, 28);
     color: rgb(206, 206, 206);
+    font-family: Verdana;
 }
 
-.row{
+.row {
     text-align: justify;
 }
 
-.video-container{
+.video-container {
+    width: 100%;
+    height: 100vh; /* Video ekranı tam kapsar */
+    overflow: hidden;
+    position: relative;
+}
+
+.background-video {
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    object-fit: cover; /* Video ekranı tamamen doldurur */
+}
+
+
+.ontop-video-content {
+    position: absolute;
+    top: 50%; /* Y ekseninde ortalamak */
+    left: 10%; /* Sol tarafa hizalamak */
+    transform: translateY(-50%); /* Dikey ortalamak */
+    z-index: 5; /* Navbar ve video arasında görünmesini sağlar */
+    text-align: left; /* Yazıyı sola hizala */
+    color: white;
+    max-width: 600px; /* Yazının genişliği belirli bir değere sınırlı */
+}
+
+.ontop-video-content h1 {
+    font-size: 4rem; /* Başlık boyutunu daha büyük yap */
+    margin-bottom: 10px; /* Başlık ile paragraf arasına boşluk bırak */
+}
+
+.ontop-video-content p {
+    font-size: 1.25rem; /* Paragraf boyutunu ayarlama */
+    margin-bottom: 20px; /* Paragraf ile buton arasında boşluk */
+    line-height: 1.6; /* Satır yüksekliği ile okunabilirliği artırma */
+}
+
+.ontop-video-content .btn {
+    background-color: #007bff;
+    color: white;
+    font-size: 1.25rem;
+    padding: 12px 25px; /* Butonun padding değerini arttırdık */
+    border-radius: 5px;
+}
+
+/* NAVBAR */
+.navbar {
+    position: absolute;
     top: 0;
-    z-index: -1;
-}
-
-.background-video{
-    object-fit:cover;
-    overflow: auto;
+    left: 0;
     width: 100%;
-    height: 100%;
-    top: 0%;
-    left: 0%;
-    right: 0%;
-    
-    
+    background-color: rgba(0, 0, 0, 0.5); /* Şeffaf siyah arka plan */
+    z-index: 10; /* Navbar'ı videonun üstüne yerleştir */
 }
 
-.container{
+.navbar-brand, .nav-link {
+    color: white !important;
+    transition: color 0.3s ease; /* Renk geçişi */
+}
+
+.navbar .container {
+    margin-left: 0; /* Container'ı sola çek */
+}
+
+.navbar .navbar-nav {
+    margin-left: 0; /* Linkleri sola hizala */
+}
+
+  /* Alt çizgi hover efekti */
+.navbar .nav-item .nav-link {
+    position: relative;
+    color: white !important; /* Yazı rengi beyaz kalacak */
+    transition: color 0.3s ease; /* Yumuşak renk geçişi */
+}
+
+  /* Alt çizgi hover efekti ile yumuşak geçiş */
+.navbar .nav-item .nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: -5px; /* Altında görünmesi için */
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #007bff; /* Mavi alt çizgi */
+    transition: width 0.3s ease; /* Alt çizginin genişlemesi için geçiş */
+}
+
+  /* Hover durumunda alt çizgi genişlemesi */
+.navbar .nav-item .nav-link:hover::after {
+    width: 100%; /* Çizgi hover ile genişleyecek */
+}
+/* NAVBAR */
+
+/* Overlay Gradient for Better Visibility */
+
+
+.container {
     height: 100%;
     width: 50%;
     z-index: -1;
 }
+
+.cont-rezerve-container {
+    display: flex;
+    flex-wrap: wrap;  /* Ensures the items wrap when the screen is smaller */
+    gap: 20px; /* Adds space between the items */
+  }
+  .cont-rezerve {
+    flex: 1 1 200px;  /* Flex item will grow, shrink, and have a minimum width of 200px */
+    background-color: #f0f0f0; /* Just an example background color */
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
