@@ -1,5 +1,5 @@
 # BAŞLAMADAN ÖNCE BUNLARI YAPIN
-<p align="center" style="text-align: justify;">
+<p style="text-align: justify;">
   * Lütfen GITHUB DESKTOP u bilgisiyarınıza indiriniz
  <br>
   * İş ayrımı <a href="https://www.zenhub.com">ZENHUB</a> üzerinden olucak hesap kurun
