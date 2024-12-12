@@ -8,10 +8,9 @@ Lütfen bilgisayarınıza <a href="https://desktop.github.com/download/">GitHub 
 Görevlerin dağılımı <b>Trello</b> üzerinden yapılacaktır. Lütfen bir Trello hesabı oluşturun. <a href="https://www.trello.com">Trello'ya buradan ulaşabilirsiniz.</a>
 
 <h3>Dosya Boyutu Optimizasyonu</h3><br>
-Yüklemeden önce dosyalarınızı bir program aracılığıyla küçültünüz.
-
-* Örnek: Bir video dosyası 150 MB ise, lütfen boyutunu 25 MB’ın altına düşürmeye çalışın.
-* Not: Fotoğraflar için de aynı şekilde boyut optimizasyonu yapınız.
+ - Dosyaları yüklemeden önce boyutlarını küçültün.  
+     - Örnek: Bir video dosyasını 150 MB’den 25 MB’ın altına indirin.  
+     - **Not:** Fotoğraflar için de aynı şekilde optimizasyon yapınız.
 
 <h3>GitHub Desktop Kullanımı</h3><br>
 GitHub Desktop kullanmayı bilmiyorsanız, aşağıdaki videoları izleyebilirsiniz:
