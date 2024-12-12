@@ -9,6 +9,7 @@
 
 <h3>Github desktop kullanımını bilmiyorsanız aşağıdaki videoları izleyebilirsiniz</h3>
 <a href="https://www.youtube.com/watch?v=8Dd7KRpKeaE&t=37s">İngilizce</a> (Altyazı ile izleyebilirsiniz)
+<a href="https://www.youtube.com/watch?v=GGb6Hq4S0-o">Türkçe</a>
 
 
   <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css />
