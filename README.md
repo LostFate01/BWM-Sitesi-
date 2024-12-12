@@ -2,7 +2,7 @@
 <p align="center" style="text-align: justify;">
   * Lütfen GITHUB DESKTOP u bilgisiyarınıza indiriniz
  <br>
-  * İş ayrımı <a href="https://www.zenhub.com">ZENHUB</a>üzerinden olucak hesap kurun (ZENHUB basarak siteye erişebilirsiniz burdan)
+  * İş ayrımı <a href="https://www.zenhub.com">ZENHUB</a>üzerinden olucak hesap kurun
  <br>
   * Lutfen dosyalarin boyutunu yuklemeden once kucultun
 </p>
