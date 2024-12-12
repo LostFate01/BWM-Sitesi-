@@ -1,8 +1,7 @@
 # BAŞLAMADAN ÖNCE OKUYUN
 <div>
  <p style="text-align: justify;">
-  * Lütfen dosyaların boyutunu yuklemeden önce bir program ile küçültün (Örnek: Bir video 150MB ise lütfen 25MB altında yapmaya çalışın "fotoğraf"lar da dahil)
-
+ 
 <h3>Github desktop kullanımını bilmiyorsanız aşağıdaki videoları izleyebilirsiniz</h3>
 <a href="https://www.youtube.com/watch?v=8Dd7KRpKeaE&t=37s">İngilizce</a> (Altyazı ile izleyebilirsiniz)
 <br>
@@ -18,11 +17,11 @@ Lütfen bilgisayarınıza <a href="https://desktop.github.com/download/">GitHub 
 <h3>İş Ayrımı</h3><br>
 Görevlerin dağılımı <b>Trello</b> üzerinden yapılacaktır. Lütfen bir Trello hesabı oluşturun. <a href="https://www.trello.com">Trello'ya buradan ulaşabilirsiniz.</a>
 
-Dosya Boyutu Optimizasyonu
+<h3>Dosya Boyutu Optimizasyonu</h3><br>
 Yüklemeden önce dosyalarınızı bir program aracılığıyla küçültünüz.
 
-Örnek: Bir video dosyası 150 MB ise, lütfen boyutunu 25 MB’ın altına düşürmeye çalışın.
-Not: Fotoğraflar için de aynı şekilde boyut optimizasyonu yapınız.
+* Örnek: Bir video dosyası 150 MB ise, lütfen boyutunu 25 MB’ın altına düşürmeye çalışın.
+* Not: Fotoğraflar için de aynı şekilde boyut optimizasyonu yapınız.
 
 </p>
 
