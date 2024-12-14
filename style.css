@@ -121,3 +121,11 @@ body {
     text-align: center;
     border: 1px solid #ccc;
   }
+
+  .berkcan{
+ width: 1400px;
+ height: 600px;
+ right: 0%;
+ overflow:auto ;
+
+  }
