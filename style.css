@@ -1,11 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
     background-color: white;
     color: black;
     font-family: Verdana;
-}
-
-.row {
-    text-align: justify;
 }
 
 .video-container {
@@ -34,6 +33,10 @@ body {
     text-align: left; /* Yazıyı sola hizala */
     color: white;
     max-width: 600px; /* Yazının genişliği belirli bir değere sınırlı */
+}
+
+.video-h1{
+    font-family: "Oswald", sans-serif;
 }
 
 .ontop-video-content h1 {
@@ -83,6 +86,8 @@ body {
     position: relative;
     color: white !important; /* Yazı rengi beyaz kalacak */
     transition: color 0.3s ease; /* Yumuşak renk geçişi */
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
 }
 
   /* Alt çizgi hover efekti ile yumuşak geçiş */
@@ -109,34 +114,76 @@ body {
     z-index: -1;
 }
 
-.cont-rezerve-container {
+.d-flex {
     display: flex;
-    flex-wrap: wrap;  /* Ekran küçüldüğünde öğelerin sarılmasını sağlar */
-    gap: 20px; /* Adds space between the items */
-  }
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Elemanlar arasındaki boşluk */
+}
 
-  .listelogosu{
+
+.cont-rezerve-container {
+    padding: 10px;
+    width: 100%; /* Sabit genişlik yerine %100 */
+    max-width: 1550px; /* Maksimum genişlik sınırı */
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    gap: 7px;
+    flex-wrap: wrap;
+}
+
+.cont-rezerve {
+    flex: 1 1 calc(33.333% - 20px); /* 3 öğe bir satırda sığacak şekilde */
+    margin-top: 10px;
+    padding: 15px;
+    box-sizing: border-box; /* Padding ve border'ı genişliğe dahil eder */
+}
+
+.cont-rezerve-button {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Yatayda ortalamak için */
+    align-items: center; /* Dikeyde ortalamak için */
+    background-color: transparent;
+    padding: 15px;
+    border: black solid 1px;
+    border-radius: 5px;
+    margin: auto;
+    transition: 0.3s;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+.cont-rezerve-button:hover{
+    background-color: rgb(29, 29, 29);
+    color: white;
+    transition: 0.3s;
+}
+
+/* rezerve yerinin ekran küçüldüğünde alt alta geçmesi için */
+@media screen and (max-width: 768px) {
+    .cont-rezerve {
+      flex: 1 1 100%; /* 1 öğenin 1 satırda olması için */
+    }
+}
+
+
+.listelogosu{
     width: 50px;
     height: auto;
-  }
-  
-  .cont-rezerve {
-    flex: 1 1 200px;  /* Esnek öğe büyüyecek, küçülecek ve minimum 200 piksel genişliğe sahip olacak  */
-    background-color: #f0f0f0;
-    padding: 20px;
-    text-align: center;
-    border: 1px solid #ccc;
-  }
+}
 
-  .furkan{
+.furkan{
     width: 40%;
     height: 40vh;
     right: 5;
     left: 5;
     overflow: auto;
-  }
-  
-  .furkan{
+}
+
+.furkan{
     float: left;
     width: 700px;
     height: 370px;
@@ -144,12 +191,14 @@ body {
     left: auto;
     margin-left: 50px;
     margin-right: 50px;
-  }
+}
 
-.baslık{
- text-align: center;
- font-size: 30px;
- font-weight: bold;
+.baslik{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
 }
 
 .paragraf{
