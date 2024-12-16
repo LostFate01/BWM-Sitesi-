@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(28, 28, 28);
-    color: rgb(206, 206, 206);
+    background-color: white;
+    color: black;
     font-family: Verdana;
 }
 
@@ -10,7 +10,7 @@ body {
 
 .video-container {
     width: 100%;
-    height: 150vh; /* Video ekranı tam kapsar */
+    height: 140vh; /* Video ekranı tam kapsar */
     overflow: hidden;
     position: relative;
 }
@@ -114,6 +114,12 @@ body {
     flex-wrap: wrap;  /* Ekran küçüldüğünde öğelerin sarılmasını sağlar */
     gap: 20px; /* Adds space between the items */
   }
+
+  .listelogosu{
+    width: 50px;
+    height: auto;
+  }
+  
   .cont-rezerve {
     flex: 1 1 200px;  /* Esnek öğe büyüyecek, küçülecek ve minimum 200 piksel genişliğe sahip olacak  */
     background-color: #f0f0f0;
@@ -122,10 +128,32 @@ body {
     border: 1px solid #ccc;
   }
 
-  .berkcan{
- width: 1400px;
- height: 600px;
- right: 0%;
- overflow:auto ;
-
+  .furkan{
+    width: 40%;
+    height: 40vh;
+    right: 5;
+    left: 5;
+    overflow: auto;
   }
+  
+  .furkan{
+    float: left;
+    width: 700px;
+    height: 370px;
+    right: auto;
+    left: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+.baslık{
+ text-align: center;
+ font-size: 30px;
+ font-weight: bold;
+}
+
+.paragraf{
+    text-align: center;
+    font-size: 19px;
+    text-align: left;
+}
