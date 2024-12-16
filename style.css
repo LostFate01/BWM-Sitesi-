@@ -10,7 +10,7 @@ body {
 
 .video-container {
     width: 100%;
-    height: 100vh; /* Video ekranı tam kapsar */
+    height: 150vh; /* Video ekranı tam kapsar */
     overflow: hidden;
     position: relative;
 }
