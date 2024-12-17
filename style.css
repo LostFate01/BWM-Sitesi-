@@ -381,8 +381,8 @@ textarea.form-control {
 }
 
 .table_ulan{
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 130px;
+    margin-right: 130px;
     border-collapse: collapse;
     background-color: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
