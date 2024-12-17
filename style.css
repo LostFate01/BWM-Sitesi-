@@ -64,12 +64,11 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Şeffaf siyah arka plan */
     z-index: 10; /* Navbar'ı videonun üstüne yerleştir */
+    border-bottom: 1px solid white; /* Navbar altına beyaz çizgi ekler */
 }
 
 .navbar-brand, .nav-link {
-    color: white !important;
     transition: color 0.3s ease; /* Renk geçişi */
 }
 
@@ -84,7 +83,6 @@ body {
   /* Alt çizgi hover efekti */
 .navbar .nav-item .nav-link {
     position: relative;
-    color: white !important; /* Yazı rengi beyaz kalacak */
     transition: color 0.3s ease; /* Yumuşak renk geçişi */
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -205,4 +203,44 @@ body {
     text-align: center;
     font-size: 19px;
     text-align: left;
+}
+
+
+
+/* ILETISIM SAYFASI */
+
+.destek-container{
+    width: 100%;                    
+    height: 100%;                   
+    display: flex;                  
+    justify-content: center;      
+    align-items: center;            
+    overflow: hidden;                
+    position: relative;              
+}
+
+.destek-img-holder{
+    width: 100%;                 
+    height: 100%;                  
+    overflow: hidden;                
+    position: relative;             
+}
+
+
+.destek-img{
+    width: 100%;                     
+    height: 100%;                  
+    object-fit: cover;               
+    object-position: center;        
+}
+
+#destek-h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+}
+
+@media (max-width: 768px) {
+    .destek-img {
+        object-position: 30% center; /* Görseli biraz sola kaydır, adam tam ortada kalsın */
+    }
 }
