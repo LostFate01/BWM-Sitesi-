@@ -141,6 +141,8 @@ body {
 }
 
 .cont-rezerve-button {
+    text-decoration: none !important;
+    color: rgb(56, 56, 56);
     text-align: center;
     width: 100%;
     display: flex;
