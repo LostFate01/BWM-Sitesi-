@@ -196,14 +196,13 @@ Verilerin Paylaşılacağı Taraflar
   
   
   document.querySelector(".destek-form-button").addEventListener("click", function(event) {
-    event.preventDefault(); // Sayfanın yenilenmesini engelle
+    event.preventDefault(); // Sayfanın yenilenmesini engelliyo
 
     const ad = document.getElementById("Ad").value.trim();
     const soyad = document.getElementById("Soyad").value.trim();
     const email = document.getElementById("Mail").value;
     let gsm = document.getElementById("GSM").value.trim();
-    const onay1 = document.getElementById("onayver").checked; // Kişisel veri onayı
-    const onay2 = document.getElementById("Evet").checked; // Tanıtım ve kampanya onayı
+    const onay1 = document.getElementById("onayver").checked; // Kişisel veri onayını sorgulamak için
 
     let valid = true;
 
@@ -213,7 +212,7 @@ Verilerin Paylaşılacağı Taraflar
       valid = false;
     }
 
-    // Eğer tüm input'lar doğru şekilde doldurulmuşsa, kişisel veri onayı kontrol edilir
+    // Eğer tüm input'lar doğru şekilde doldurulduysa kişisel veri onay sorgulama yeri
     if (valid) {
       if (!onay1) {
         alert("Lütfen kişisel verilerinizi işlenmesine onay verin.");
@@ -221,9 +220,9 @@ Verilerin Paylaşılacağı Taraflar
       }
     }
 
-    // Eğer her şey doğruysa formu gönderebiliriz
+    // Eğer her şey doğruysa formu göndermek için
     if (valid) {
-      // Formu gönderme işlemi burada yapılabilir
+      // Formu alert ile müşteriye gösteriyoruz
       alert("Şu anda tüm Canlı Destek ekibimiz yoğun. Canlı Destek talebiniz başarıyla alınmıştır. Ekibimiz en kısa sürede sizinle iletişime geçecektir.");
     }
   });

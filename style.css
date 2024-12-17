@@ -285,22 +285,22 @@ body {
 .form-row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 15px; /* Satırlar arasına boşluk */
+    margin-bottom: 15px; /* Satırlar arasına boşluk ekledik */
 }
 
 .label-destek{
-    display: block; /* Label'ı input'un üstüne taşır */
+    display: block; /* Label'ı input'un üstüne taşımak için */
     margin-bottom: 5px; /* Label ile input arasındaki boşluk */
     font-size: 16px;
     color: #333;
 }
 
 .form-group {
-    width: 48%; /* Input genişliği %48 olacak, iki input yan yana sığacak */
+    width: 48%; /* Input genişliği %48 olacak ve iki input yan yana sığacak bu şekilde */
 }
 
 .text-width{
-    width: 100%; /* Input genişliğini, .form-group içindeki genişliğe göre ayarla */
+    width: 100%; /* Input genişliğini .form-group içindeki genişliğe göre ayarlamak için */
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -327,9 +327,9 @@ textarea.form-control {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    resize: none; /* Kullanıcıların textarea'yı büyütmesini küçültmesini engellemek için */
+    resize: none; /* müşterinin felan textarea'yı büyütmesini küçültmesini engellemek için */
     font-size: 14px;
-    line-height: 1.6; /* Satır aralığını ayarlar */
+    line-height: 1.6; /* Satır aralığını ayarlayıo */
     background-color: #f9f9f9;
     color: #333;
     font-weight: normal;
@@ -338,14 +338,14 @@ textarea.form-control {
 .error-message {
     color: red;
     font-size: 12px;
-    display: none; /* Başlangıçta hata mesajları gizli */
+    display: none; /* Başlangıçta hata mesajları gizlimek için */
     margin-top: 5px;
     font-family: "Oswald", sans-serif;
 }
 
 @media (max-width: 768px) {
     .destek-img {
-        object-position: 30% center; /* Görseli biraz sola kaydır, adam tam ortada kalsın */
+        object-position: 30% center;
     }
 }
 
