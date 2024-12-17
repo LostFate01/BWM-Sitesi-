@@ -350,3 +350,9 @@ textarea.form-control {
 }
 
 /* ILETISIM SAYFASI */ /* ILETISIM SAYFASI */ /* ILETISIM SAYFASI */ /* ILETISIM SAYFASI */ /* ILETISIM SAYFASI */ /* ILETISIM SAYFASI */
+
+.temel_b {
+    padding-top: 150px;
+    padding-right: 20px;
+    text-align: left;
+}
