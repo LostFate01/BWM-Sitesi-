@@ -69,13 +69,15 @@
                   <!-- İlk input (Ad) -->
                   <div class="form-group col-12 col-md-6">
                       <label class="label-destek" for="Ad">Ad *</label>
-                      <input class="text-width" type="text" id="Ad">
+                      <input class="text-width" type="text" id="Ad" required>
+                      <span id="ad-error" class="error-message"></span> <!-- Ad uyarısı -->
                   </div>
           
                   <!-- İkinci input (Soyad) -->
                   <div class="form-group col-12 col-md-6">
                       <label class="label-destek" for="Soyad">Soyad *</label>
-                      <input class="text-width" type="text" id="Soyad">
+                      <input class="text-width" type="text" id="Soyad" required>
+                      <span id="soyad-error" class="error-message"></span> <!-- Soyad uyarısı -->
                   </div>
               </div>
           
@@ -83,13 +85,15 @@
                   <!-- Üçüncü input (E-Posta) -->
                   <div class="form-group col-12 col-md-6">
                       <label class="label-destek" for="Mail">E-Posta *</label>
-                      <input class="text-width" type="text" id="Mail">
+                      <input class="text-width" type="email" id="Mail" required>
+                      <span id="email-error" class="error-message"></span> <!-- E-posta uyarısı -->
                   </div>
           
                   <!-- Dördüncü input (GSM) -->
                   <div class="form-group col-12 col-md-6">
                       <label class="label-destek" for="GSM">GSM *</label>
-                      <input class="text-width" type="text" id="GSM">
+                      <input class="text-width" type="tel" id="GSM" required pattern="^\+90\d{3}\d{3}\d{4}$">
+                      <span id="gsm-error" class="error-message"></span> <!-- GSM uyarısı -->
                   </div>
               </div>
               <small>Kişisel verilerinizin işlenmesi hakkında aydınlatma metnini <a href="#">buradan</a> inceleyebilirsiniz.</small>
@@ -112,7 +116,7 @@ Verilerin Paylaşılacağı Taraflar
 
               <div id="radio-area" class="mt-3">
                 <div id="radio1" class="mt-3">
-                  <label for=""><small>Kişisel verilerinizi yukarıdaki Rıza Metninde belirtilen kapsamda işlememizi onaylıyor musunuz?</small></label>
+                  <label for=""><small>* Kişisel verilerinizi yukarıdaki Rıza Metninde belirtilen kapsamda işlememizi onaylıyor musunuz?</small></label>
                   <br>
                   <input type="radio" id="onayver" name="group2" >
                   <label for="onayver">Evet, Onaylıyorum.</label>
@@ -187,4 +191,41 @@ Verilerin Paylaşılacağı Taraflar
     </div>
   </div>
 </footer>
+
+<script>
+  
+  
+  document.querySelector(".destek-form-button").addEventListener("click", function(event) {
+    event.preventDefault(); // Sayfanın yenilenmesini engelle
+
+    const ad = document.getElementById("Ad").value.trim();
+    const soyad = document.getElementById("Soyad").value.trim();
+    const email = document.getElementById("Mail").value;
+    let gsm = document.getElementById("GSM").value.trim();
+    const onay1 = document.getElementById("onayver").checked; // Kişisel veri onayı
+    const onay2 = document.getElementById("Evet").checked; // Tanıtım ve kampanya onayı
+
+    let valid = true;
+
+    // Ad ve Soyad doğrulaması
+    if (!ad || !soyad || !email || !gsm) {
+      alert("Lütfen tüm alanları doldurduğunuzdan emin olun.");
+      valid = false;
+    }
+
+    // Eğer tüm input'lar doğru şekilde doldurulmuşsa, kişisel veri onayı kontrol edilir
+    if (valid) {
+      if (!onay1) {
+        alert("Lütfen kişisel verilerinizi işlenmesine onay verin.");
+        valid = false;
+      }
+    }
+
+    // Eğer her şey doğruysa formu gönderebiliriz
+    if (valid) {
+      // Formu gönderme işlemi burada yapılabilir
+      alert("Şu anda tüm Canlı Destek ekibimiz yoğun. Canlı Destek talebiniz başarıyla alınmıştır. Ekibimiz en kısa sürede sizinle iletişime geçecektir.");
+    }
+  });
+</script>
 </html>

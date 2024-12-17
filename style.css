@@ -335,6 +335,14 @@ textarea.form-control {
     font-weight: normal;
 }
 
+.error-message {
+    color: red;
+    font-size: 12px;
+    display: none; /* Başlangıçta hata mesajları gizli */
+    margin-top: 5px;
+    font-family: "Oswald", sans-serif;
+}
+
 @media (max-width: 768px) {
     .destek-img {
         object-position: 30% center; /* Görseli biraz sola kaydır, adam tam ortada kalsın */
