@@ -350,3 +350,66 @@ textarea.form-control {
 }
 
 /* ILETISIM SAYFASI */ /* ILETISIM SAYFASI */ /* ILETISIM SAYFASI */ /* ILETISIM SAYFASI */ /* ILETISIM SAYFASI */ /* ILETISIM SAYFASI */
+
+.fiyat_listesi_logo{
+    width: 50px;
+    height: auto;
+    margin-left: 130px;
+
+}
+
+.h11{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+    color: gainsboro;
+    margin-left: 130px;
+}
+
+.header1{
+    background-color: white;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.body1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+    color: white;
+}
+
+.table_ulan{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.tr1{
+    background-color: #f0f0f0;
+    color: #191a19;
+    @media screen and(max-width:768px) {}
+}
+
+.tr1:hover{
+    background-color: #f0f0f0;
+    @media screen and (max-width:768px) {}
+}
+
+.th1{
+    background-color: white;
+    color: black;
+    font-size: 1.1em;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.td1{
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
