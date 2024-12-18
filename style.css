@@ -537,3 +537,61 @@ textarea.form-control {
 }
 
 /* KAMPANYA SAYFASI */ /* KAMPANYA SAYFASI */ /* KAMPANYA SAYFASI */ /* KAMPANYA SAYFASI */ /* KAMPANYA SAYFASI */ /* KAMPANYA SAYFASI */ 
+
+/* MODELLER SAYFASI */ /* MODELLER SAYFASI */ /* MODELLER SAYFASI */ /* MODELLER SAYFASI */ /* MODELLER SAYFASI */ /* MODELLER SAYFASI */ 
+
+.temel_b {
+    margin-top: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+/* Giriş metni kısmı */
+.intro {
+    background-color: none;
+    color: #000000;
+    padding: 30px;
+    text-align: left;
+  }
+  
+  .intro h2 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+  
+  .intro p {
+    margin-top: 15px;
+    font-size: 1.2em;
+    line-height: 1.6;
+    max-width: 900px;
+    margin-left: 100px;
+    margin-right: auto;
+  }
+
+/* Grid container ayarları */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 sütun oluşturur */
+    grid-template-rows: repeat(5, 1fr); /* 5 satır oluşturur */
+    gap: 10px; /* Hücreler arasındaki boşluk */
+    width: 80%; /* Grid'in genişliği */
+    margin: 0 auto; /* Ortalamak için */
+  }
+  
+  /* Her bir grid item için stil */
+  .grid-item {
+    background-color: #f4f4f4; /* Arka plan rengi */
+    border: 1px solid #ddd; /* Sınır çizgisi */
+    display: flex;
+    justify-content: center; /* Yatayda ortalama */
+    align-items: center; /* Dikeyde ortalama */
+    height: 200px; /* Kutu yüksekliği */
+  }
+  
+  .grid-item img {
+    width: 100%; /* Resmin genişliğini kutuya göre ayarla */
+    height: auto; /* Resmin yüksekliği orantılı olsun */
+    object-fit: cover; /* Resmin kutuyu doldurmasını sağla */
+  }
+  
