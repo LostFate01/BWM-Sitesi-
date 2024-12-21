@@ -544,6 +544,8 @@ textarea.form-control {
     margin-top: auto;
     padding-top: 100px;
     text-align: center;
+    color: #000;
+    
 }
 
 /* Giriş metni kısmı */
@@ -569,29 +571,14 @@ textarea.form-control {
     margin-right: auto;
   }
 
-/* Grid container ayarları */
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 sütun oluşturur */
-    grid-template-rows: repeat(5, 1fr); /* 5 satır oluşturur */
-    gap: 10px; /* Hücreler arasındaki boşluk */
-    width: 80%; /* Grid'in genişliği */
-    margin: 0 auto; /* Ortalamak için */
-  }
-  
-  /* Her bir grid item için stil */
-  .grid-item {
-    background-color: #f4f4f4; /* Arka plan rengi */
-    border: 1px solid #ddd; /* Sınır çizgisi */
-    display: flex;
-    justify-content: center; /* Yatayda ortalama */
-    align-items: center; /* Dikeyde ortalama */
-    height: 200px; /* Kutu yüksekliği */
-  }
-  
-  .grid-item img {
-    width: 100%; /* Resmin genişliğini kutuya göre ayarla */
-    height: auto; /* Resmin yüksekliği orantılı olsun */
-    object-fit: cover; /* Resmin kutuyu doldurmasını sağla */
-  }
-  
+  .model-card .cmp-modelcard__new-model-label {
+    text-align: left;
+    text-transform: none;
+    font-size: 13px;
+    font-weight: 700;
+    background: black;
+    color: #fff;
+    padding: 3px 10px;
+}
+
+
