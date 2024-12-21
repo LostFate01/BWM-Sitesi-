@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BMW Modelleri</title>
+    <title>BMW Modellerini Keşfedin | BMW Türkiye Resmi Web Sitesi</title>
     <link rel="icon" href="../images/BMW Logo.png" type="image/x - icon" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -12,6 +12,55 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../style.css"/>
+    <style>
+         /* Grid düzeni için temel ayar */
+         .model-grid {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(250px, 1fr)); /* Otomatik sütun sayısı, her sütun 250px minimum */
+            gap: 1.5rem; /* Sütunlar arasındaki boşluk */
+            padding: 20px;
+            margin-left: 50px;
+        }
+
+        /* Her model için stil */
+        .model-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        /* Modelin resmini stilize etme */
+        .model-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        /* Model başlığı */
+        .model-card h3 {
+            margin: 10px 0;
+            color: #333;
+            font-size: 18px;
+        }
+
+        /* Model açıklaması */
+        .model-card p {
+            padding: 0 10px;
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        /* Hover efekti: Kart büyür */
+        .model-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark" style="border-bottom: 1px solid black !important;">
@@ -35,10 +84,303 @@
     <br>
         <div>
             <div class="container mr-5"></div>
-            <h1 class="temel_b">BMW Modelleri</h1>
+<<<<<<< HEAD
+            <h1 class="temel_b">Yeni BMW Modelleri</h1>
+
+    </div>
+    <h1 class="text-modeller-başlık">8</h1>
+    <div class="grid-container">
+        <div class="grid-item"><img src="../images/8-serisi-coupe.png" alt="Resim 1"></div>
+        <div class="grid-item"><img src="../images/m8-grann-coupe.siyah.png" alt="Resim 2"></div>
+        <div class="grid-item"><img src="../images/8 serisi cabrio.png" alt="Resim 3"></div>
+    </div>
+    <div>
+        <img class="pages-modeller-logo" src="../images/SİYAH M logo.png" alt="">
+        <img class="pages-modeller-logo-1" src="../images/SİYAH M logo.png" alt="">
+        <img class="pages-modeller-logo-2" src="../images/SİYAH M logo.png" alt="">
+    </div>
+    <div class="grid-container">
+        <p class="grid-model"> Yeni 8 Serisi Coupe</p>
+        <p class="grid-model"> Yeni 8 Serisi Gran Coupe</p>
+        <p class="grid-model"> Yeni 8 Serisi Cabrio</p>
+    </div>
+    <div class="grid-container">
+        <p class="grid-model"> Benzin</p>
+        <p class="grid-model"> Benzin</p>
+        <p class="grid-model"> Benzin</p>
+    </div>
+    <h1 class="text-modeller-başlık">7</h1>
+    <div class="grid-container">
+        <div class="grid-item"><img src="../images/7 serisi elektrik.png" alt="Resim 4"></div>
+        <div class="grid-item"><img src="../images/i7-sedan.png" alt="Resim 5"></div>
+        <div class="grid-item"><img src="../images/yeni i7.png" alt="Resim 19"></div>
+    </div> 
+    <div>
+        <img class="pages-modeller-logo-s" src="../images/M-POWER-LOGO.png" alt="">
+        <img class="pages-modeller-logo-1s" src="../images/M-POWER-LOGO.png" alt="">
+        <img class="pages-modeller-logo-2s" src="../images/M-POWER-LOGO.png" alt="">
+    </div>
+    <div class="grid-container">
+        <p class="grid-model"> Yeni BMW i7 M70 xDrive</p>
+        <p class="grid-model"> Yeni İ7 xDrive M Sport</p>
+        <p class="grid-model"> Yeni BMW İ7 M650 xDrive</p>
+    </div>
+    <div class="grid-container">
+        <p class="grid-model"> Elektrik</p>
+        <p class="grid-model"> Elektrik</p>
+        <p class="grid-model"> Elektrik</p>
+    </div>
+    <h1 class="text-modeller-başlık">5</h1>
+    <div class="grid-container">  
+        <div class="grid-item"><img src="../images/5 serisi.png" alt="Resim 10"></div>
+        <div class="grid-item"><img src="../images/5 serisi i5M60.png" alt="Resim 11"></div>
+        <div class="grid-item"><img src="../images/5 serisi farklı.png" alt="Resim 15"></div>
+    </div>
+    <div>
+        <img class="pages-modeller-logo-s" src="../images/M-POWER-LOGO.png" alt="">
+        <img class="pages-modeller-logo-1s" src="../images/M-POWER-LOGO.png" alt="">
+        <img class="pages-modeller-logo-2s" src="../images/M-POWER-LOGO.png" alt="">
+    </div>
+    <div class="grid-container">
+        <p class="grid-model"> Yeni BMW 5 Serisi M Sport</p>
+        <p class="grid-model"> Yeni BMW İ5 xDrive M Sport</p>
+        <p class="grid-model"> Yeni BMW İ5 M550 xDrive</p>
+    </div>
+    <div class="grid-container">
+        <p class="grid-model"> Benzin</p>
+        <p class="grid-model"> Elektrik</p>
+        <p class="grid-model"> Elektrik</p>
+    </div>
+    <h1 class="text-modeller-başlık">4</h1>
+    <div class="grid-container">
+        <div class="grid-item"><img src="../images/4 serisi.png" alt="Resim 13"></div>
+        <div class="grid-item"><img src="../images/4 serisi yeni.png" alt="Resim 14"></div>
+        <div class="grid-item"><img src="../images/4 serisi coupe.png" alt="Resim 15"></div>
+        <div class="grid-item"><img src="../images/4 serisi.agresif.png" alt="Resim 16"></div>
+    </div>
+    <div>
+        <img class="pages-modeller-logo-s" src="../images/M-POWER-LOGO.png" alt="">
+        <img class="pages-modeller-logo-1s" src="../images/M-POWER-LOGO.png" alt="">
+        <img class="pages-modeller-logo-2s" src="../images/M-POWER-LOGO.png" alt="">
+        <img class="pages-modeller-logo-2s" src="../images/M-POWER-LOGO.png" alt="">
+    </div>
+    <div class="grid-container">
+        <p class="grid-model"> Yeni BMW 4 Serisi M Sport</p>
+        <p class="grid-model"> Yeni BMW 4 Serisi xDrive Coupe</p>
+        <p class="grid-model"> Yeni BMW 4 Serisi Coupe</p>
+        <p class="grid-model"> Yeni BMW M4 Competetion Coupe</p>
+    </div>
+    <div class="grid-container">
+        <p class="grid-model"> Benzin</p>
+        <p class="grid-model"> Benzin</p>
+        <p class="grid-model"> Benzin</p>
+        <p class="grid-model"> Benzin</p>
+    </div>
+    <h1 class="text-modeller-başlık">3</h1>
+    <div class="grid-container">
+        <div class="grid-item"><img src="../images/3 serisi.png" alt="Resim 6"></div>
+        <div class="grid-item"><img src="../images/BMW M3.jpg" alt="Resim 7"></div>
+        <div class="grid-item"><img src="../images/3 serisi touring.png" alt="Resim 7"></div>
+        <div class="grid-item"><img src="../images/3-serisi-touring.png" alt="Resim 8"></div>
+    </div>
+    
+    <div>
+        <img class="pages-modeller-logo-s" src="../images/M-POWER-LOGO.png" alt="">
+        <img class="pages-modeller-logo-2s" src="../images/M-POWER-LOGO.png" alt="">
+        <img class="pages-modeller-logo-1s" src="../images/M-POWER-LOGO.png" alt="">
+        <img class="pages-modeller-logo-2s" src="../images/M-POWER-LOGO.png" alt="">
+    </div>
+
+    <div class="grid-container">
+        <p class="grid-model"> Yeni BMW 3 Serisi M Sport</p>
+        <p class="grid-model"> Yeni BMW M3 Competetion Sedan</p>
+        <p class="grid-model"> Yeni BMW 3 Serisi Touring</p>
+        <p class="grid-model"> Yeni BMW 3 Serisi Touring xDrive</p>
+    </div>
+    <div class="grid-container">
+        <p class="grid-model"> Benzin</p>
+        <p class="grid-model"> Benzin</p>
+        <p class="grid-model"> Benzin-Dizel</p>
+        <p class="grid-model"> Benzin-Dizel</p>
+    </div>
+    <h1 class="text-modeller-başlık">2</h1>
+    <div class="grid-container">
+        <div class="grid-item"><img src="..//images/2 serisi.png" alt="Resim 17"></div>
+    </div>
+    <div class="grid-container">
+        <p class="grid-model"> Yeni BMW 2 Serisi M Sport</p>
+    </div>
+    <div class="grid-container">
+        <p class="grid-model"> Benzin</p>
+    </div>
+    <h1 class="text-modeller-başlık">X</h1>
+    <div class="grid-container">
+        <div class="grid-item"><img src="../images/X1.jpg" alt="Resim 18"></div>
+        <div class="grid-item"><img src="../images/x2 serisi.png" alt="Resim 19"></div>
+        <div class="grid-item"><img src="../images/x3 serisi.png" alt="Resim 19"></div>
+        <div class="grid-item"><img src="../images/x4 serisi.png" alt="Resim 19"></div>
+    </div>
+
+    <div>
+        <img class="pages-modeller-logo-s" src="../images/M-POWER-LOGO.png" alt="">
+        <img class="pages-modeller-logo-2s" src="../images/M-POWER-LOGO.png" alt="">
+        <img class="pages-modeller-logo-1s" src="../images/M-POWER-LOGO.png" alt="">
+        <img class="pages-modeller-logo-2s" src="../images/M-POWER-LOGO.png" alt="">
+    </div>
+    
+    <div class="grid-container">
+        <p class="grid-model"> Yeni BMW X1</p>
+        <p class="grid-model"> Yeni BMW X2</p>
+        <p class="grid-model"> Yeni BMW X3 M Sport</p>
+        <p class="grid-model"> Yeni BMW X4 M Sport</p>
+    </div>
+    <div class="grid-container">
+        <p class="grid-model"> Benzin</p>
+        <p class="grid-model"> Benzin</p>
+        <p class="grid-model"> Benzin</p>
+        <p class="grid-model"> Benzin</p>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-item"><img src="../images/X1.jpg" alt="Resim 18"></div>
+        <div class="grid-item"><img src="../images/x2 serisi.png" alt="Resim 19"></div>
+    </div>
+
+    <div>
+        <img class="pages-modeller-logo-s" src="../images/M-POWER-LOGO.png" alt="">
+        <img class="pages-modeller-logo-2s" src="../images/M-POWER-LOGO.png" alt="">
+    </div>
+       
+    <div class="grid-container">
+        <p class="grid-model"> Yeni BMW X1 M Sport</p>
+        <p class="grid-model"> Yeni BMW X5 M Sport</p>
+    </div>
+    <div class="grid-container">
+        <p class="grid-model"> Benzin</p>
+        <p class="grid-model"> Benzin</p>
+    </div>
+
+=======
+            <h1 class="temel_b">BMW M SERİSİ</h1>
+        </div>
+        <div class="intro">
+            <p>BMW'nin M Serisi, markanın en yüksek performanslı araçlarını temsil eder ve otomobil dünyasında güçlü, dinamik ve zarif tasarımıyla tanınır. 1972 yılında BMW M1 ile başlayan bu serüven, zamanla markanın en prestijli modellerini kapsayacak şekilde büyüdü. M Serisi araçlar, hem pistte hem de günlük kullanımda üstün performans sağlayacak şekilde tasarlanmıştır.</p>
+            <p>BMW M Serisi, sadece hız ve güçle değil, aynı zamanda sürüş dinamiği, konfor ve teknoloji ile de fark yaratır. Her bir model, motorsporları dünyasından esinlenerek geliştirilmiş, aerodinamik tasarımlar ve motor teknolojileriyle donatılmıştır. M Serisi'nin her bir modeli, sürücüsüne benzersiz bir deneyim sunmayı hedefler.</p>
+            <p>Gelişmiş motor seçenekleri, şasi tasarımları ve teknolojik özelliklerle donatılmış olan BMW M Serisi, otomobil tutkunları için sadece bir araç değil, adeta bir yaşam tarzıdır. Bu seri, hız severlerin kalbini kazanırken, aynı zamanda estetik açıdan da büyük beğeni toplar. BMW'nin mühendislikteki mükemmeliyetini temsil eden bu modeller, performans ve konforu mükemmel bir şekilde birleştirir.</p>
+          </div>
+    </div>
+    <div class="model-grid">
+        <!-- Model Kartı 1 -->
+        <div class="model-card">
+            <span class="cmp-modelcard__new-model-label" data-cmp-hook-modelselection="new-model-label" aria-label="YENİ">YENİ</span>
+            <img src="../images/BWM_1.png" alt="BMW Modeli 1">
+            <h3>Yeni BMW XM</h3>
+            <p style="color: #4d4d4d;">PLUG-IN HYBRID</p>
+        </div>
+
+        <!-- Model Kartı 2 -->
+        <div class="model-card">
+            <img src="../images/BWM_2.png" alt="BMW Modeli 2">
+            <h3>BMW X7 M60i</h3>
+            <p style="color: #4d4d4d;">Benzin</p>
+        </div>
+
+        <!-- Model Kartı 3 -->
+        <div class="model-card">
+            <img src="../images/BWM_3.png" alt="BMW Modeli 3">
+            <h3>Yeni BMW X2 M35i xDrive</h3>
+            <p style="color: #4d4d4d;">Benzin</p>
+        </div>
+
+        <!-- Model Kartı 4 -->
+        <div class="model-card">
+            <img src="../images/BMW_4.png" alt="BMW Modeli 4">
+            <h3>Yeni BMW i5 M60 xDrive</h3>
+            <p style="color: #4d4d4d;">Tamamen Elektrikli</p>
+        </div>
+
+        <!-- Model Kartı 5 -->
+        <div class="model-card">
+            <img src="../images/BWM_5.png" alt="BMW Modeli 5">
+            <h3>Yeni BMW i7 M70 xDrive</h3>
+            <p style="color: #4d4d4d;">Tamamen Elektrikli</p>
+        </div>
+
+        <!-- Model Kartı 6 -->
+        <div class="model-card">
+            <img src="../images/BWM_6.png" alt="BMW Modeli 5">
+            <h3>Yeni BMW i4 M50</h3>
+            <p style="color: #4d4d4d;">Tamamen Elektrikli</p>
+        </div>
+
+        <!-- Model Kartı 7 -->
+        <div class="model-card">
+            <img src="../images/BWM_7.png" alt="BMW Modeli 5">
+            <h3>BMW M8 Coupé</h3>
+            <p style="color: #4d4d4d;">Benzin</p>
+        </div>
+
+        <!-- Model Kartı 8 -->
+        <div class="model-card">
+            <img src="../images/BWM_8.png" alt="BMW Modeli 5">
+            <h3>Yeni BMW M760e xDrive</h3>
+            <p style="color: #4d4d4d;">PLUG-IN HYBRID</p>
         </div>
     </div>
+                
+>>>>>>> 8c151b396a1b0f8b5ef1cb4bb7753e36f542fb81
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
+<footer>
+  <div class="footer-holder mt-5">
+    <div class="footer-divs">
+      <h3 class="footer-h3">İLETİŞİM & DESTEK</h3>
+      <div>
+        <a class="footer-links" href="pages/iletisim.html">BMW Canlı Destek</a>
+        <br>
+        <a class="footer-links" href="">BMW Acil Yol Yardım Hattı</a>
+        <br>
+        <a class="footer-links" href="pages/iletisim.html">İletişim</a>
+        <br>
+        <a class="footer-links" href="">Geri Dönüşüm</a>
+        <br>
+        <a class="footer-links" href="">Gönüllü Geri Çağırma</a>
+        <br>
+        <a class="footer-links" href="">BMW E-Bülteni</a>
+      </div>
+    </div>
+    <div class="footer-divs">
+      <h3 class="footer-h3">HIZLI ERİŞİM</h3>
+      <a class="footer-links" href="pages/fiyat-listesi.html">Fiyat Listesi</a>
+      <br>
+      <a class="footer-links" href="">Ayın Özel Teklifleri</a>
+      <br>
+      <a class="footer-links" href="">BMW’nizi Online Rezerve Edin</a>
+      <br>
+      <a class="footer-links" href="">BMW Türkiye Mobil Uygulaması</a>
+      <br>
+      <a class="footer-links" href="">Test Sürüşü</a>
+      <br>
+      <a class="footer-links" href="">Kataloglar</a>
+    </div>
+    <div class="footer-divs">
+      <h3 class="footer-h3">BMW DÜNYASI</h3>
+      <a class="footer-links" href="">BMW Türkiye Mobil Uygulaması</a>
+      <br>
+      <a class="footer-links" href="">BMW Dilediğiniz Yerde</a>
+      <br>
+      <a class="footer-links" href="">BMW Lifestyle Shop</a>
+      <br>
+      <a class="footer-links" href="">İkinci El BMW modelleri Borusan Next’te</a>
+      <br>
+      <a class="footer-links" href="">BMW Motorrad Türkiye</a>
+      <br>
+      <a class="footer-links" href="">BOM Akademi</a>
+    </div>
+  </div>
+</footer>
+
+
 </html>
 
