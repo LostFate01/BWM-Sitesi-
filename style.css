@@ -349,16 +349,19 @@ textarea.form-control {
 /* ILETISIM SAYFASI */ /* ILETISIM SAYFASI */ /* ILETISIM SAYFASI */ /* ILETISIM SAYFASI */ /* ILETISIM SAYFASI */ /* ILETISIM SAYFASI */
 
 /* FIYAT LISTESI *//* FIYAT LISTESI *//* FIYAT LISTESI *//* FIYAT LISTESI *//* FIYAT LISTESI *//* FIYAT LISTESI *//* FIYAT LISTESI */
-<<<<<<< HEAD
+
 
 .fiyat_listesi_logo{
     margin-left: 50px;
     width: 100px;
-=======
+}
 .fiyat_listesi_logo{
     width: 120px;
     height: 70px;
->>>>>>> 8c151b396a1b0f8b5ef1cb4bb7753e36f542fb81
+}
+.fiyat_listesi_logo{
+    width: 120px;
+    height: 70px;
     height: auto;
 
 }
@@ -386,11 +389,8 @@ textarea.form-control {
 }
 
 .table_ulan{
-<<<<<<< HEAD
     width: 100%;
     height: auto;
-=======
->>>>>>> 8c151b396a1b0f8b5ef1cb4bb7753e36f542fb81
     border-collapse: collapse;
     background-color: white;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -554,7 +554,6 @@ textarea.form-control {
 /* MODELLER SAYFASI */ /* MODELLER SAYFASI */ /* MODELLER SAYFASI */ /* MODELLER SAYFASI */ /* MODELLER SAYFASI */ /* MODELLER SAYFASI */ 
 
 .temel_b {
-<<<<<<< HEAD
     font-weight: 400;
     margin-top: auto;
     padding-top: 100px;
@@ -572,23 +571,13 @@ textarea.form-control {
     width: 80%; /* Grid'in genişliği */
     margin: 0 auto; /* Ortalamak için */
 }
-=======
-    margin-top: auto;
-    padding-top: 100px;
-    text-align: center;
-    color: #000;
-    
-}
 
-/* Giriş metni kısmı */
->>>>>>> 8c151b396a1b0f8b5ef1cb4bb7753e36f542fb81
 .intro {
     background-color: none;
     color: #000000;
     padding: 30px;
     text-align: left;
     margin-left: 16%;
-<<<<<<< HEAD
 }
   .grid-item {
     background-color: white; /* Arka plan rengi */
@@ -723,10 +712,6 @@ grid-template-columns: 1fr;
     height: auto;
     position: cover;
 }
-  
-=======
-  }
-  
   .intro h2 {
     margin: 0;
     font-size: 2.5em;
@@ -741,16 +726,4 @@ grid-template-columns: 1fr;
     margin-left: 100px;
     margin-right: auto;
   }
-
-  .model-card .cmp-modelcard__new-model-label {
-    text-align: left;
-    text-transform: none;
-    font-size: 13px;
-    font-weight: 700;
-    background: black;
-    color: #fff;
-    padding: 3px 10px;
-}
-
->>>>>>> 8c151b396a1b0f8b5ef1cb4bb7753e36f542fb81
 
