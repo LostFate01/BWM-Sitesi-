@@ -211,12 +211,17 @@ body {
     text-align: left;
 }
 
+/* INDEX */ /* INDEX */ /* INDEX */ /* INDEX */ /* INDEX */ /* INDEX */ /* INDEX */ /* INDEX */ /* INDEX */ /* INDEX */ /* INDEX */ /* INDEX */ 
+
+/* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */
 
 .footer-holder{
     background-color: rgb(248, 248, 248);
     height: 450px;
     width: 100%;
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 .footer-divs{
@@ -230,9 +235,6 @@ body {
     color: rgb(56, 56, 56);
     font-weight: 500;
     transition: 0.3s;
-    
-
-
     font-family: "Poppins", sans-serif;
     font-style: normal;
 }
@@ -247,7 +249,7 @@ body {
     font-style: normal;
     font-weight: 300;
 }
-/* INDEX */ /* INDEX */ /* INDEX */ /* INDEX */ /* INDEX */ /* INDEX */ /* INDEX */ /* INDEX */ /* INDEX */ /* INDEX */ /* INDEX */ /* INDEX */ 
+/* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */
 
 /* ILETISIM SAYFASI */ /* ILETISIM SAYFASI */ /* ILETISIM SAYFASI */ /* ILETISIM SAYFASI */ /* ILETISIM SAYFASI */ /* ILETISIM SAYFASI */
 
@@ -284,6 +286,8 @@ body {
 .form-destek{
     width: 100%;
     height: 100%;
+    margin: 0 auto;
+    position: relative; 
 }
 
 .form-row {
@@ -691,19 +695,14 @@ textarea.form-control {
     border-radius: 8px;
     /* Grid içinde mobil uyumlu düzen için 600px altında */
 @media (max-width: 768px) {
-  
- 
     /* Yazı başlıkları font büyüklüğü */
-      .text-modeller-başlık {
+        .text-modeller-başlık {
         font-size: 1.5rem; /* Mobilde başlık boyutunu küçült */
-      }
-    
-      }
+        }
+    }
 }
 
 .grid-container-1 {
-    
-  
 grid-template-columns: 1fr;
 }
 
@@ -712,18 +711,173 @@ grid-template-columns: 1fr;
     height: auto;
     position: cover;
 }
-  .intro h2 {
+.intro h2 {
     margin: 0;
     font-size: 2.5em;
     font-weight: bold;
-  }
-  
-  .intro p {
+}
+
+.intro p {
     margin-top: 15px;
     font-size: 1.2em;
     line-height: 1.6;
     max-width: 900px;
     margin-left: 100px;
     margin-right: auto;
-  }
+}
 
+/* GERİ CAGIRMA */ /* GERİ CAGIRMA */ /* GERİ CAGIRMA */ /* GERİ CAGIRMA */ /* GERİ CAGIRMA */ /* GERİ CAGIRMA */ /* GERİ CAGIRMA */
+.cagirma-container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    gap: 50px;
+}
+
+.cagirma-divs{
+    height: 100%;
+    width: 50%;
+}
+
+.cagirma-img{
+    width: 100%;
+}
+
+.cagirma-text-input{
+    border-radius: gray 1px solid;
+    width: 300px;
+    height: 35px;
+}
+
+.cagirma-button{
+    background-color: #007bff;
+    color: white;
+    height: 36px;
+    border: none;
+    width: 100px;
+}
+/* GERİ CAGIRMA */ /* GERİ CAGIRMA */ /* GERİ CAGIRMA */ /* GERİ CAGIRMA */ /* GERİ CAGIRMA */ /* GERİ CAGIRMA */ /* GERİ CAGIRMA */
+
+/* HİZMETLER */ /* HİZMETLER */ /* HİZMETLER */ /* HİZMETLER */ /* HİZMETLER */ /* HİZMETLER */ /* HİZMETLER */ /* HİZMETLER */ 
+
+.hizmetler-bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url(../images/BMW-Hizmetler.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.img-bg-container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.ontop-img-text {
+    position: absolute;
+    top: 50%; /* Y ekseninde ortalamak */
+    left: 10%; /* Sol tarafa hizalamak */
+    transform: translateY(-50%); /* Dikey ortalamak */
+    z-index: 5; /* Navbar ve video arasında görünmesini sağlar */
+    text-align: left; /* Yazıyı sola hizala */
+    color: white;
+    max-width: 700px; /* Yazının genişliği belirli bir değere sınırlı */
+}
+
+.p-hizmetler{
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 22px !important;
+}
+
+.faq-text-h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 350;
+}
+
+.faq-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.faq-divs{
+    margin: 0 auto;
+    width: 33%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.faq-img{
+    width: 120px;
+}
+
+.hizmetler-row{
+    width: 100%;
+    margin: auto;
+}
+
+.services-container{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.services-divs{
+    margin: 0 auto;
+    width: 33%;
+    font-weight: bold;
+    color: rgba(39, 39, 39, 0.815);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 30px;
+}
+
+.services-img{
+    width: 100%;
+}
+
+.services-button{
+    background-color: transparent;
+    border: none;
+}
+
+.services-button:hover{
+    color: #007bff;
+}
+
+.faydali-linker-container{
+    width: 1600px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.faydali-linkler-divs{
+    width: 50%;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.faydali-linker-img{
+    height: auto;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .faydali-linkler {
+        width: 100%; /* Daha küçük ekranlarda her bir öğe %100 genişlikte olacak */
+    }
+}
+
+/* HİZMETLER */ /* HİZMETLER */ /* HİZMETLER */ /* HİZMETLER */ /* HİZMETLER */ /* HİZMETLER */ /* HİZMETLER */ /* HİZMETLER */ 
