@@ -392,6 +392,10 @@ textarea.form-control {
     color: white;
 }
 
+.table-respon{
+    padding: 100px;
+}
+
 .table_ulan{
     width: 100%;
     height: auto;
