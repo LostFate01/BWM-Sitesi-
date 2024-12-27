@@ -12,55 +12,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../style.css"/>
-    <style>
-         /* Grid düzeni için temel ayar */
-         .model-grid {
-            display: grid;
-            grid-template-columns: repeat(4, minmax(250px, 1fr)); /* Otomatik sütun sayısı, her sütun 250px minimum */
-            gap: 1.5rem; /* Sütunlar arasındaki boşluk */
-            padding: 20px;
-            margin-left: 50px;
-        }
-
-        /* Her model için stil */
-        .model-card {
-            background-color: white;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            transition: transform 0.3s ease;
-        }
-
-        /* Modelin resmini stilize etme */
-        .model-card img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-        }
-
-        /* Model başlığı */
-        .model-card h3 {
-            margin: 10px 0;
-            color: #333;
-            font-size: 18px;
-        }
-
-        /* Model açıklaması */
-        .model-card p {
-            padding: 0 10px;
-            color: #666;
-            font-size: 14px;
-            margin-bottom: 20px;
-        }
-
-        /* Hover efekti: Kart büyür */
-        .model-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-        }
-    </style>
-    </style>
+    
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark" style="border-bottom: 1px solid black !important;">
@@ -84,10 +36,18 @@
     <br>
         <div>
             <div class="container mr-5"></div>
+            
             <h1 class="temel_b">Yeni BMW Modelleri</h1>
 
+       <br>
+       <br>
+       <br>
+<br>
+<br>
+
+
     </div>
-    <h1 class="text-modeller-başlık">8</h1>
+    <h1 class="text-modeller-başlık" id="8 serisi">8</h1>
     <div class="grid-container">
         <div class="grid-item"><img src="../images/8-serisi-coupe.png" alt="Resim 1"></div>
         <div class="grid-item"><img src="../images/m8-grann-coupe.siyah.png" alt="Resim 2"></div>
@@ -241,8 +201,8 @@
     </div>
 
     <div class="grid-container">
-        <div class="grid-item"><img src="../images/X1.jpg" alt="Resim 18"></div>
-        <div class="grid-item"><img src="../images/x2 serisi.png" alt="Resim 19"></div>
+        <div class="grid-item"><img src="../images/x5 serisi.png" alt="Resim 18"></div>
+        <div class="grid-item"><img src="../images/x6 serisi.png" alt="Resim 19"></div>
     </div>
 
     <div>
@@ -251,8 +211,8 @@
     </div>
        
     <div class="grid-container">
-        <p class="grid-model"> Yeni BMW X1 M Sport</p>
         <p class="grid-model"> Yeni BMW X5 M Sport</p>
+        <p class="grid-model"> Yeni BMW X6 M Sport</p>
     </div>
     <div class="grid-container">
         <p class="grid-model"> Benzin</p>
@@ -347,7 +307,7 @@
     </div>
     <div class="footer-divs">
       <h3 class="footer-h3">HIZLI ERİŞİM</h3>
-      <a class="footer-links" href="pages/fiyat-listesi.html">Fiyat Listesi</a>
+      <a class="footer-links" href="../pages/fiyat-listesi.html">Fiyat Listesi</a>
       <br>
       <a class="footer-links" href="">Ayın Özel Teklifleri</a>
       <br>
