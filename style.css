@@ -948,3 +948,15 @@ grid-template-columns: 1fr;
             font-weight: bold;
             
         }
+
+        .ForSaleBottom {
+            padding: 0;
+            width: 100%;
+            float: left;
+            min-height: 600px;
+        }
+
+        .priceList * {
+            font-family: "bmwTypeNextWeb";
+            color: black;
+        }
